@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="./MASOODH.jpg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+         
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/masoodh-m-119760212" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD RESUME</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">MY CONTACT DETAILS</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">PROJECTS AND INTERNS</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">OBJECTIVE</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <h1>Masoodh M</h2>
+            <h2>B.E ECE</h3>
+            <p></p>
+          </div>
+          <!--OBJECTIVE SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">OBJECTIVE</h2>
+            <p class="w3-margin-top-2"> 
+              I am looking for an entry-level position to
+kickstart my career . I wish to work in a
+dynamic organisation that will contribute
+to my professional and personal growth
+while I contribute to the growth of the
+company as well
+            </p>
+          </div>
+
+          <!---->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">PROJECTS AND INTERNS</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--PROJECT SECTION-->
+              <h3 class="w3-border-amber">PROJECTS</h3>
+              <div class="">
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <h4>MEDICAL IMAGE COMPRESSION USING MACHINE LERNING.</h4>
+                    <ul class="w3-ul" style="font-weight: 500;">
+                  <li>The ease of storing and transmission of digital medical images is a boon to patients and medical professionals. Due to the large volume of images, image compression is required to reduce the redundancies in image and represents it in shorter manner for efficient archiving and transmission of images.</li>
+                 
+                </ul>
+              </div>
+              <div class="">
+                <h3>INTERNSHIP</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <h4>DATA SCIENCE & MACHINE LEARNING from NIELIT,Chennai.
+</h4>
+                  <li>Machine learning is a branch of computer science that studies how to enable computers to solve problems without being explicitly programmed to solve them step-by-step.</li>
+                  <li> Data science is a highly interdisciplinary science that applies machine learning algorithms, statistical methods, mathematical analysis to extract knowledge from data. </li>
+                </ul>
+              </div>
+              <div class="">
+                <h3>WORKSHOP</h3>
+              
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <h4> IOT WORKSHOP NIT-Trichy.
+</h4>
+                  <li>The internet of things, or IoT, is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.</li>
+                  
+                </ul>
+              </div>
+            </div>
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">EDUCATION</h3>
+                <h4>Sri Krishna College Of Engineering And Technology,Coimbatore</h4>
+                <p>(2019-2023) </p>
+                <h4>Golden Gates Matriculation Hr Sec School,Perambalur</h4>
+                <p>(2018-2019) </p>
+                <h4>Thanthai Hans Roever Hr Sec School,Perambalur</h4>
+                <p> (2016-2017)</p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">SKILLS AND PERSONALITY</h3>
+              <!--COMPUTER LANGUAGES-->
+              <h4>COMPUTER LANGUAGES</h4>
+              <ul class="w3-ul" style="font-weight: 400;">
+                <h5>BASIC C,JAVA AND HTML.</h5>
+                
+              </ul>
+              <!--LANGUAGES KNOWN-->
+              <h4>LANGUAGES KNOWN</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <h5>ENGLISH</h5>
+                  <li>(Read,Write,Speak)</li>
+                  <h5>TAMIL</h5>
+                  <li>(Read,Write,Speak)</li>
+                  <h5>ARABIC</h5>
+                  <li>(Read,Write)</li>
+                  
+                </ul>
+            </div>
+
+            <!--HOBBIES SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">HOBBIES</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>I love to play Football Every Day</li>
+                  <li>Reading Books,Watching Web Series</li>
+                  <li>Solving Codes</li>
+                </ul>
+            </div>
+          <!--CONTACT DETAILS-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Masoodh M</p>
+              <p>Adress: Kalyan nagar,near muthukrishna mahal,
+                perambalur,62121</p>
+              <p>Phone number:+91 9080268325</p>
+              <p>E-mail:mrmasoodh777@email.com</p>
+            </div>
+          </div>
+
+       
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>

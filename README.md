@@ -4,9 +4,10 @@ TEAM ID : PNT2022TMID03120
 
 TITLE : Personal Expense Tracker Application
 
-TEAM LEADER : Madhusudhan NS
 
 TEAM MEMBERS:
+
+    Madhusudhan NS [ Team Leader ]
 
     Manish Kumar V
 

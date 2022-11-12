@@ -1,19 +1,29 @@
 # IBM-Project-18040-1659678602
+
 TEAM ID : PNT2022TMID03120
+
 TITLE : Personal Expense Tracker Application
 
 TEAM LEADER : Madhusudhan NS
 
 TEAM MEMBERS:
+
     Manish Kumar V
+
     Mananithyanantham
+
     Masoodh
 
-INDUSTRY MENTOR : Khusboo
-FACULTY MENTOR : Devi 
+INDUSTRY MENTOR : 
+Khusboo
+
+FACULTY MENTOR : 
+Devi 
 
 COLLEGE : Sri Krishna College of Engineering and Technology
+
 DEGREE : Bachelor of Engineering
+
 BRANCH : Electronics and Communication Engineering
 
 PROJECT OVERVIEW:

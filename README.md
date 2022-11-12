@@ -7,19 +7,19 @@ TITLE : Personal Expense Tracker Application
 
 TEAM MEMBERS:
 
-    Madhusudhan NS [ Team Leader ]
+    MADHUSUDHAN NS [ Team Leader ]
 
-    Manish Kumar V
+    MANISHKUMAR V
 
-    Mananithyanantham
+    MANANITHYANANDHAM T M
 
-    Masoodh
+    MASOODH M
 
 INDUSTRY MENTOR : 
 Khusboo
 
 FACULTY MENTOR : 
-Devi 
+Devi D
 
 COLLEGE : Sri Krishna College of Engineering and Technology
 
